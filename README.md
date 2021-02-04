@@ -22,6 +22,17 @@ webpackを使ってweb制作するときの使用例
 - postcss.config.js
 - webpack.config.js
 
+## 初期設定状態
+### entry
+- ./src/index.js ← index(chunks)
+- ./src/sub.js ← sub(chunks)
+
+### output
+- ./public/[name].[chunkhash].js
+
+### ESlint
+- "extends": "eslint:recommended"
+
 ## 機能
 - 商用環境用にミニファイして出力
 - 複数のhtmlファイルを個別にバンドルして出力
