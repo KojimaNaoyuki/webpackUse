@@ -13,3 +13,20 @@ webpackを使ってweb制作するときの使用例
 - npm install --save-dev html-webpack-plugin
 - npm install --save-dev html-loader
 - npm install --save-dev optimize-css-assets-webpack-plugin terser-webpack-plugin
+
+## 必要ファイル
+- .eslintrc
+- babel.config.js
+- package.json
+- postcss.config.js
+- webpack.config.js
+
+## 機能
+- 商用環境用にミニファイして出力
+- 複数のhtmlファイルを個別にバンドルして出力
+- 動的にバンドルしたjsファイルを読み込んだhtmlファイルを出力
+- scssをcssに変換してcssは別ファイルにして出力(jsファイルにはバンドルされない)
+- 自動でベンダープレフィックスが必要なものに付与する
+- 画像をバンドルする
+- babelでjsの最新構文をレガシー環境でも動作するようにトランスファイル
+- ESlintによるjavascriptの構文チェック
