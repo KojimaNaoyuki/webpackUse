@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.mv {
+  background-image: url(img/45be04c0fd9b44efb4229cb61e7dc9e6.png);
+  width: 1000px;
+  height: 500px;
+}
