@@ -2,6 +2,7 @@
 webpackを使ってweb制作するときの使用例
 
 ## 必要なインストールコマンド
+- npm init
 - npm install --save-dev webpack webpack-cli
 - npm install --save-dev sass sass-loader css-loader style-loader
 - npm install --save-dev postcss-loader autoprefixer
